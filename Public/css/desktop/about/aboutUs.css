@@ -1,0 +1,294 @@
+div.team div.body div.Card div.img div.hoverMe {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.benefit div.body div.benfCard div.Card {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+div.benefit div.body, div.benefit {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.team div.body, div.benefit div.body div.logo-section, div.benefit div.body div.benfCard, div.mission div.M-AND-V, div.process div.cards, div.WWA div.main-who-we-are div.up div.body, div.aboutHero {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.team div.body div.Card div.content h5, div.team div.body div.Card div.content h2, div.team div.header h2, div.benefit div.body div.logo-section div.logo-number h5, div.benefit div.body div.logo-section div.logo-number h2, div.benefit div.body div.benfCard div.Card h5, div.benefit div.body div.benfCard div.Card h2, div.benefit div.header h2, div.mission div.M-AND-V div.passage h6, div.mission div.M-AND-V div.passage h2, div.mission div.M-AND-V div.passage h5, div.process div.cards div.Card h5, div.process div.cards div.Card h2, div.process div.title h2, div.WWA div.main-who-we-are div.up div.body div.area h5, div.WWA div.main-who-we-are div.up div.body div.area h2, div.WWA div.main-who-we-are div.up div.header h5, div.aboutHero div.text h5, div.aboutHero div.text h2, div.aboutHero div.text h6 {
+  font-family: var(--FontFamily);
+}
+
+div.team div.body div.Card div.content h5, div.team div.body div.Card div.content h2, div.team div.header h2, div.benefit div.body div.logo-section div.logo-number h5, div.benefit div.body div.logo-section div.logo-number h2, div.benefit div.body div.benfCard div.Card h5, div.benefit div.body div.benfCard div.Card h2, div.benefit div.header h2, div.mission div.M-AND-V div.passage h6, div.mission div.M-AND-V div.passage h2, div.mission div.M-AND-V div.passage h5, div.process div.cards div.Card h5, div.process div.cards div.Card h2, div.process div.title h2, div.WWA div.main-who-we-are div.up div.body div.area h5, div.WWA div.main-who-we-are div.up div.body div.area h2, div.WWA div.main-who-we-are div.up div.header h5, div.aboutHero div.text h5, div.aboutHero div.text h2, div.aboutHero div.text h6 {
+  color: var(--mainFontColor);
+}
+
+div.team, div.mission, div.process, div.aboutHero {
+  padding: var(--mainPadding);
+}
+
+div.aboutHero {
+  width: 100%;
+}
+div.aboutHero div.text {
+  width: 47%;
+}
+div.aboutHero div.text h6 {
+  font-size: 18px;
+  font-weight: 400;
+}
+div.aboutHero div.text h2 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+div.aboutHero div.text h5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: justify;
+}
+div.aboutHero div.img {
+  width: 40%;
+}
+div.aboutHero div.img img {
+  width: 100%;
+}
+
+div.WWA {
+  width: 100%;
+  padding: 0px 140px;
+}
+div.WWA div.main-who-we-are {
+  width: inherit;
+  background-color: #f4f5f5;
+}
+div.WWA div.main-who-we-are div.up {
+  width: 100%;
+  padding: 75px;
+}
+div.WWA div.main-who-we-are div.up div.header {
+  width: inherit;
+}
+div.WWA div.main-who-we-are div.up div.header h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+div.WWA div.main-who-we-are div.up div.body {
+  width: 100%;
+}
+div.WWA div.main-who-we-are div.up div.body div.area {
+  width: 48%;
+}
+div.WWA div.main-who-we-are div.up div.body div.area h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+div.WWA div.main-who-we-are div.up div.body div.area h5 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px;
+}
+div.WWA div.main-who-we-are div.down {
+  width: 100%;
+}
+div.WWA div.main-who-we-are div.down img {
+  width: inherit;
+  object-fit: cover;
+}
+
+div.process {
+  width: 100%;
+}
+div.process div.title {
+  width: 100%;
+  margin-bottom: 48px;
+}
+div.process div.title h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+div.process div.cards {
+  width: 100%;
+}
+div.process div.cards div.Card {
+  width: 22%;
+}
+div.process div.cards div.Card svg {
+  margin-bottom: 32px;
+}
+div.process div.cards div.Card h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+div.process div.cards div.Card h5 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+div.mission {
+  width: 100%;
+  background-color: #eef4fa;
+}
+div.mission div.M-AND-V {
+  width: 100%;
+  margin-bottom: 96px;
+}
+div.mission div.M-AND-V div.passage {
+  width: 50%;
+}
+div.mission div.M-AND-V div.passage h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+div.mission div.M-AND-V div.passage h2 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+div.mission div.M-AND-V div.passage h6 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+div.mission div.M-AND-V div.img {
+  width: 40%;
+}
+div.mission div.M-AND-V div.img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+div.benefit {
+  width: 100%;
+  padding: 128px 140px;
+}
+div.benefit div.header {
+  width: 60%;
+}
+div.benefit div.header h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+div.benefit div.body {
+  width: 100%;
+  margin-top: 48px;
+}
+div.benefit div.body div.benfCard {
+  width: 100%;
+}
+div.benefit div.body div.benfCard div.Card {
+  width: 30%;
+  background-color: #f4f6fc;
+  padding: 48px 32px;
+}
+div.benefit div.body div.benfCard div.Card h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: 26px;
+}
+div.benefit div.body div.benfCard div.Card h5 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 12px;
+}
+div.benefit div.body div.logo-section {
+  width: 100%;
+  margin-top: 48px;
+}
+div.benefit div.body div.logo-section div.logo-number {
+  width: fit-content;
+}
+div.benefit div.body div.logo-section div.logo-number h2 {
+  font-size: 38px;
+  font-weight: 600;
+}
+div.benefit div.body div.logo-section div.logo-number h5 {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 70%;
+}
+div.benefit div.body div.logo-section div.logo-wrapper {
+  width: 75%;
+  padding: 24px 0;
+}
+
+div.team {
+  width: 100%;
+  background-color: #f4f6fc;
+}
+div.team div.header {
+  width: 100%;
+  margin-bottom: 48px;
+}
+div.team div.header h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+div.team div.body {
+  width: 100%;
+}
+div.team div.body div.Card {
+  width: 24%;
+  padding: 32px 50px;
+  background-color: #ffffff;
+}
+div.team div.body div.Card div.img {
+  width: 100%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+div.team div.body div.Card div.img:hover > div.hoverMe {
+  transform: translateY(-100%);
+}
+div.team div.body div.Card div.img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+div.team div.body div.Card div.img div.hoverMe {
+  width: 100%;
+  padding: 40px 30px;
+  background: linear-gradient(348.37deg, #5239fa 17.97%, rgba(255, 255, 255, 0) 79.2%);
+  position: absolute;
+  transition: 500ms;
+}
+div.team div.body div.Card div.img div.hoverMe svg {
+  position: absolute;
+  top: 55%;
+}
+div.team div.body div.Card div.content {
+  width: 100%;
+  margin-top: 32px;
+}
+div.team div.body div.Card div.content h2 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+div.team div.body div.Card div.content h5 {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 70%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=aboutUs.css.map */

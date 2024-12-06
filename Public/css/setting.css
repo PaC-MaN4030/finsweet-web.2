@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+#app {
+  width: 100%;
+}
+
+@font-face {
+  font-family: finsweet;
+  src: url(../fonts/Poppins-Medium.eot);
+  src: url(../fonts/Poppins-Medium.ttf);
+  src: url(../fonts/Poppins-Medium.woff);
+  src: url(../fonts/Poppins-Medium.woff2);
+}
+@font-face {
+  font-family: Manrope;
+  src: url(../fonts/Manrope-ExtraLight.eot);
+  src: url(../fonts/Manrope-ExtraLight.ttf);
+  src: url(../fonts/Manrope-ExtraLight.woff);
+  src: url(../fonts/Manrope-ExtraLight.woff2);
+}
+:root {
+  --mainBGcolor: #1C1E53;
+  --mainFontColor: #282938;
+  --mainPadding: 128px 160px;
+  --FontFamily: finsweet;
+}
+
+/*# sourceMappingURL=setting.css.map */

@@ -1,0 +1,30 @@
+{
+  "name": "finsweet-web.2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "setSass": "npx sass --watch ./public/scss/setting.scss:./public/css/setting.css",
+    "mainSass": "npx sass --watch ./public/scss/main.scss:./public/css/main.css",
+    "desktopSass": "npx sass --watch ./public/scss/desktop/desktop.scss:./public/css/desktop/desktop.css",
+    "desktopHeader": "npx sass --watch ./public/scss/desktop/header.scss:./public/css/desktop/header.css",
+    "desktopFooter": "npx sass --watch ./public/scss/desktop/footer.scss:./public/css/desktop/footer.css",
+    "home": "npx sass --watch ./public/scss/desktop/home/homeHero.scss:./public/css/desktop/home/homeHero.css",
+    "about": "npx sass --watch ./public/scss/desktop/about/aboutUs.scss:./public/css/desktop/about/aboutUs.css",
+    "pricing": "npx sass --watch ./public/scss/desktop/pricing/pricing.scss:./public/css/desktop/pricing/pricing.css",
+    "mobileSass": "npx sass --watch ./public/scss/mobile/mobile.scss:./public/css/mobile/mobile.css",
+    "tailwind": "npx tailwindcss -i ./public/tailwind/tailwind.css -o ./public/css/desktop/blog/blog.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.80.7",
+    "tailwindcss": "^3.4.16",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "mdb-ui-kit": "^8.1.0",
+    "swiper": "^11.1.14"
+  }
+}

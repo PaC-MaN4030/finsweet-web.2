@@ -1,0 +1,109 @@
+footer {
+  width: 100%;
+  // position: relative;
+  div.up {
+    width: 100%;
+    padding: 96px 160px;
+    position: relative;
+    background-color: var(--mainBGcolor);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: start;
+    div.left {
+      width: 38%;
+      svg {
+        margin-bottom: 24px;
+      }
+      h5 {
+        font-family: var(--FontFamily);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #fff;
+      }
+    }
+    div.right {
+      width: 40%;
+      margin-right: 100px;
+      svg {
+        margin-bottom: 14px;
+      }
+      h5 {
+        font-family: var(--FontFamily);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #cfd1d7;
+      }
+      .ss {
+        margin-top: 28px;
+      }
+    }
+    div.CoINFO {
+      width: 33%;
+      padding: 16px 37px;
+      background-color: #fcd980;
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 32px;
+      div.leftf {
+        width: 45%;
+        h4 {
+          font-family: var(--FontFamily);
+          font-size: 18px;
+          font-weight: 500;
+          color: var(--mainFontColor);
+        }
+        h5 {
+          font-family: var(--FontFamily);
+          font-size: 16px;
+          font-weight: 400;
+          color: var(--mainFontColor);
+        }
+      }
+      div.rightf {
+        width: 45%;
+        h4 {
+          font-family: var(--FontFamily);
+          font-size: 18px;
+          font-weight: 500;
+          color: var(--mainFontColor);
+        }
+        h5 {
+          font-family: var(--FontFamily);
+          font-size: 16px;
+          font-weight: 400;
+          color: var(--mainFontColor);
+        }
+      }
+    }
+  }
+  div.down {
+    width: 100%;
+    padding: 32px 160px;
+    display: flex;
+    flex-flow: row nowrap;
+    div.leftd {
+      width: 50%;
+      h5 {
+        font-family: var(--FontFamily);
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--mainFontColor);
+      }
+    }
+    div.rightd {
+      width: 50%;
+      a {
+        font-family: var(--FontFamily);
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--mainFontColor);
+        margin-left: 32px;
+      }
+    }
+  }
+}

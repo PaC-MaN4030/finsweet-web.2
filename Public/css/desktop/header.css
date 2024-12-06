@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header div.rightHeader {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: right;
+  align-items: center;
+}
+
+header div.rightHeader div.list nav ul, header div.leftHeader {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: left;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background-color: var(--mainBGcolor);
+  padding: 16px 160px;
+  position: sticky;
+}
+header div.leftHeader {
+  width: 30%;
+  height: 100%;
+  padding: 17px 0;
+}
+header div.rightHeader {
+  width: 70%;
+  height: 100%;
+}
+header div.rightHeader div.list {
+  margin-right: 20px;
+}
+header div.rightHeader div.list nav {
+  width: 100%;
+}
+header div.rightHeader div.list nav ul {
+  gap: 32px;
+}
+header div.rightHeader div.list nav ul li {
+  list-style: none;
+}
+header div.rightHeader div.list nav ul li a {
+  font-family: var(--FontFamily);
+  color: #bbbbcb;
+  font-size: 16px;
+}
+header div.rightHeader div.borderList {
+  padding: 16px 48px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  border-radius: 40px;
+  cursor: pointer;
+}
+header div.rightHeader div.borderList a {
+  font-family: finsweet;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a.FILL {
+  color: #fff !important;
+}
+
+/*# sourceMappingURL=header.css.map */

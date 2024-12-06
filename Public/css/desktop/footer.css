@@ -1,0 +1,110 @@
+footer {
+  width: 100%;
+}
+footer div.up {
+  width: 100%;
+  padding: 96px 160px;
+  position: relative;
+  background-color: var(--mainBGcolor);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: start;
+}
+footer div.up div.left {
+  width: 38%;
+}
+footer div.up div.left svg {
+  margin-bottom: 24px;
+}
+footer div.up div.left h5 {
+  font-family: var(--FontFamily);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fff;
+}
+footer div.up div.right {
+  width: 40%;
+  margin-right: 100px;
+}
+footer div.up div.right svg {
+  margin-bottom: 14px;
+}
+footer div.up div.right h5 {
+  font-family: var(--FontFamily);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #cfd1d7;
+}
+footer div.up div.right .ss {
+  margin-top: 28px;
+}
+footer div.up div.CoINFO {
+  width: 33%;
+  padding: 16px 37px;
+  background-color: #fcd980;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 32px;
+}
+footer div.up div.CoINFO div.leftf {
+  width: 45%;
+}
+footer div.up div.CoINFO div.leftf h4 {
+  font-family: var(--FontFamily);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--mainFontColor);
+}
+footer div.up div.CoINFO div.leftf h5 {
+  font-family: var(--FontFamily);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--mainFontColor);
+}
+footer div.up div.CoINFO div.rightf {
+  width: 45%;
+}
+footer div.up div.CoINFO div.rightf h4 {
+  font-family: var(--FontFamily);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--mainFontColor);
+}
+footer div.up div.CoINFO div.rightf h5 {
+  font-family: var(--FontFamily);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--mainFontColor);
+}
+footer div.down {
+  width: 100%;
+  padding: 32px 160px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+footer div.down div.leftd {
+  width: 50%;
+}
+footer div.down div.leftd h5 {
+  font-family: var(--FontFamily);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--mainFontColor);
+}
+footer div.down div.rightd {
+  width: 50%;
+}
+footer div.down div.rightd a {
+  font-family: var(--FontFamily);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--mainFontColor);
+  margin-left: 32px;
+}
+
+/*# sourceMappingURL=footer.css.map */

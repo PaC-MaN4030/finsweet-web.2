@@ -1,0 +1,372 @@
+%flexRow {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+%flexCol {
+  display: flex;
+  flex-flow: column nowrap;
+}
+%flexRight {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: right;
+  align-items: center;
+}
+%flexLeft {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: left;
+  align-items: center;
+}
+%flexAcol {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+%flexArow {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+%fontFamily {
+  font-family: var(--FontFamily);
+}
+%fontDecore {
+  text-decoration: none;
+}
+%fontColor {
+  color: var(--mainFontColor);
+}
+%mainPadding {
+  padding: var(--mainPadding);
+}
+
+// about us hero part
+
+div.aboutHero {
+  width: 100%;
+  @extend %mainPadding;
+  @extend %flexArow;
+  div.text {
+    width: 47%;
+    h6 {
+      @extend %fontFamily;
+      font-size: 18px;
+      font-weight: 400;
+      @extend %fontColor;
+    }
+    h2 {
+      @extend %fontFamily;
+      font-size: 54px;
+      font-weight: 600;
+      line-height: 74px;
+      @extend %fontColor;
+    }
+    h5 {
+      @extend %fontFamily;
+      @extend %fontColor;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: justify;
+    }
+  }
+  div.img {
+    width: 40%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+// who we are part
+
+div.WWA {
+  width: 100%;
+  padding: 0px 140px;
+  div.main-who-we-are {
+    width: inherit;
+    background-color: #f4f5f5;
+    div.up {
+      width: 100%;
+      padding: 75px;
+      div.header {
+        width: inherit;
+        h5 {
+          @extend %fontFamily;
+          @extend %fontColor;
+          font-size: 16px;
+          font-weight: 500;
+        }
+      }
+      div.body {
+        width: 100%;
+        @extend %flexArow;
+        div.area {
+          width: 48%;
+          h2 {
+            @extend %fontFamily;
+            @extend %fontColor;
+            font-size: 32px;
+            font-weight: 600;
+          }
+          h5 {
+            @extend %fontFamily;
+            @extend %fontColor;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 28px;
+          }
+        }
+      }
+    }
+    div.down {
+      width: 100%;
+      img {
+        width: inherit;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+// process part
+
+div.process {
+  width: 100%;
+  @extend %mainPadding;
+  div.title {
+    width: 100%;
+    margin-bottom: 48px;
+    h2 {
+      @extend %fontFamily;
+      @extend %fontColor;
+      font-size: 48px;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+  div.cards {
+    width: 100%;
+    @extend %flexArow;
+    div.Card {
+      width: 22%;
+      svg {
+        margin-bottom: 32px;
+      }
+      h2 {
+        font-size: 20px;
+        font-weight: 500;
+        @extend %fontFamily;
+        @extend %fontColor;
+        margin-bottom: 8px;
+      }
+      h5 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px;
+        @extend %fontFamily;
+        @extend %fontColor;
+      }
+    }
+  }
+}
+
+// our mission and our vision part
+
+div.mission {
+  width: 100%;
+  @extend %mainPadding;
+  background-color: #eef4fa;
+  div.M-AND-V {
+    width: 100%;
+    @extend %flexArow;
+    margin-bottom: 96px;
+    div.passage {
+      width: 50%;
+      h5 {
+        @extend %fontFamily;
+        @extend %fontColor;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 16px;
+      }
+      h2 {
+        @extend %fontFamily;
+        @extend %fontColor;
+        font-size: 38px;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+      h6 {
+        @extend %fontFamily;
+        @extend %fontColor;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+    div.img {
+      width: 40%;
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+// benefits part
+
+div.benefit {
+  width: 100%;
+  @extend %flexAcol;
+  padding: 128px 140px;
+  div.header {
+    width: 60%;
+    h2 {
+      @extend %fontFamily;
+      @extend %fontColor;
+      font-size: 48px;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+  div.body {
+    width: 100%;
+    @extend %flexAcol;
+    margin-top: 48px;
+    div.benfCard {
+      width: 100%;
+      @extend %flexArow;
+      div.Card {
+        width: 30%;
+        background-color: #f4f6fc;
+        @extend %flexCol;
+        padding: 48px 32px;
+        h2 {
+          @extend %fontFamily;
+          @extend %fontColor;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 36px;
+          margin-top: 26px;
+        }
+        h5 {
+          @extend %fontFamily;
+          @extend %fontColor;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 28px;
+          margin-top: 12px;
+        }
+      }
+    }
+    div.logo-section {
+      width: 100%;
+      @extend %flexArow;
+      margin-top: 48px;
+      div.logo-number {
+        width: fit-content;
+        h2 {
+          @extend %fontFamily;
+          @extend %fontColor;
+          font-size: 38px;
+          font-weight: 600;
+        }
+        h5 {
+          @extend %fontFamily;
+          @extend %fontColor;
+          font-size: 16px;
+          font-weight: 400;
+          opacity: 70%;
+        }
+      }
+      div.logo-wrapper {
+        width: 75%;
+        padding: 24px 0;
+      }
+    }
+  }
+}
+
+// our Team part
+
+div.team {
+  width: 100%;
+  @extend %mainPadding;
+  background-color: #f4f6fc;
+  div.header {
+    width: 100%;
+    margin-bottom: 48px;
+    h2 {
+      @extend %fontFamily;
+      @extend %fontColor;
+      font-size: 48px;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+  div.body {
+    width: 100%;
+    @extend %flexArow;
+    div.Card {
+      width: 24%;
+      padding: 32px 50px;
+      background-color: #ffffff;
+      div.img {
+        width: 100%;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        &:hover > div.hoverMe {
+          transform: translateY(-100%);
+        }
+        img {
+          width: 100%;
+          object-fit: cover;
+          border-radius: 100%;
+        }
+        div.hoverMe {
+          width: 100%;
+          padding: 40px 30px;
+          background: linear-gradient(
+            348.37deg,
+            #5239fa 17.97%,
+            rgba(255, 255, 255, 0) 79.2%
+          );
+          position: absolute;
+          transition: 500ms;
+          @extend %flexRow;
+          svg {
+            position: absolute;
+            top: 55%;
+          }
+        }
+      }
+      div.content {
+        width: 100%;
+        margin-top: 32px;
+        h2 {
+          @extend %fontFamily;
+          @extend %fontColor;
+          font-size: 20px;
+          font-weight: 500;
+          text-align: center;
+        }
+        h5 {
+          @extend %fontFamily;
+          @extend %fontColor;
+          font-size: 14px;
+          font-weight: 400;
+          opacity: 70%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
